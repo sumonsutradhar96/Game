@@ -1,0 +1,239 @@
+/* @media (min-width: 1400px){} (extra large)
+@media (min-width: 1200px) and (max-width: 1399.98px) {} (extra large)
+(large)
+ */
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+    /* =====manu part start===== */
+    #manu_part ul li a {
+        padding-right: 26px;
+    }
+    /* =====manu part end===== */
+    /* =====banner part start===== */
+    #banner_part .item_part {
+        width: 930px;
+        height: 180px;
+        bottom: -96px;
+    }
+    /* =====banner part end===== */
+    /* =====sub_payment_part  start===== */
+    #sub_payment_part .item input {
+        width: 412px;
+    }
+    /* =====sub_payment_part  end===== */
+    
+ }
+ @media (min-width: 768px) and (max-width: 991.98px) {
+    /* ========manu part start========== */
+    #manu_part ul li a {
+        font-size: 14px;
+        padding-right: 7px;
+    }
+    #manu_part .btn_1 {
+        padding: 6px 12px;
+        box-shadow: 1px 6px 0px #661355;
+        font-size: 18px;
+    }
+    #manu_part .btn_2 {
+        padding: 6px 16px;
+        box-shadow: 1px 6px 0px #3a0090;
+        font-size: 18px;
+    }
+    /* ========manu part start========== */
+    #banner_part .item_part {
+        width: 693px;
+        height: 158px;
+        bottom: -83px;
+    }
+    /* ========banner part end========== */
+    /* ========sub_payment_part start========== */
+    #sub_payment_part .item .lft_box {
+        right: 150px;
+        top: 39px;
+    }
+    #sub_payment_part .item .title {
+        margin-top: 30px;
+    }
+    /* ========sub_payment_part end========== */
+    /* ======== fotter part start========== */
+    #footer_part .item .title {
+        font-size: 24px; 
+    }
+    #footer_part .item_ption .s_icon_2 {
+        bottom: 4px;
+    }
+    /* ======== fotter part end========== */
+    
+   
+}
+ @media (min-width: 576px) and (max-width: 767.98px) {
+    /* =========manu part start========== */
+    #manu_part img {
+        width: 60%;
+    }
+    #manu_part ul li a {
+        font-size: 15px;
+    }
+    #manu_part button span {
+        color: #fff;
+        font-size: 30px;
+        margin-top: 98px;
+        margin-left: 80px;
+    }
+    #manu_part .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    #manu_part .btn_1 {
+        padding: 5px 10px;
+        background-color: #f935d6;
+        box-shadow: 1px 4px 0px #661355;
+        font-size: 15px;
+        text-shadow: 5px 6px 0px #2222;
+    }
+    #manu_part .btn_2 {
+        padding: 5px 14px;
+        box-shadow: 0px 4px 0px #3a0090;
+        font-size: 15px;
+        text-shadow: 5px 6px 0px #2222;
+    }
+    .navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+        display: block;
+    }
+    /* =========manu part end========== */
+    /* ==========banner part start========= */
+    #banner_part {
+        padding-top: 227px;
+        padding-bottom: 150px;
+    }
+    #banner_part .item_part {
+        width: 516px;
+        height: 115px;
+        bottom: -58px;
+    }
+    #banner_part .item_part .item .txt_1 {
+        font-size: 26px;
+    }
+    #banner_part .item_part .item .txt_2 {
+        font-size: 18px;
+    }
+    #banner_part .item_part .item .pera {
+        font-size: 10px;
+    }
+    /* ==========banner part end========= */
+    /* ==========game part start========= */
+    #game_details {
+        padding-top: 151px;
+    }
+    /* ==========game part end========= */
+    /* ==========sub payment part start========= */
+    #sub_payment_part .item input {
+        width: 253px;
+    }
+    #sub_payment_part .item .lft_box {
+        right: 219px;
+        top: 39px;  
+    }
+    #sub_payment_part .item .sm_fnt_siz{
+        font-size: 32px;
+    }
+    #sub_payment_part .item .title {
+        margin-top: 30px;
+    }
+    
+    /* ==========sub payment part end========= */
+    /* ==========footer  part start========= */
+    #footer_part .item .title {
+        margin-top: 30px;
+    }
+    #footer_part .copy_right {
+        font-size: 13px;
+    }
+    /* ==========footer  part end========= */
+ }
+@media (max-width: 575.98px) {
+    #manu_part img {
+        width: 60%;
+    }
+    #manu_part ul li a {
+        font-size: 15px;
+    }
+    #manu_part button span {
+        color: #fff;
+    }
+    #manu_part .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    #manu_part .btn_1 {
+        padding: 5px 10px;
+        background-color: #f935d6;
+        box-shadow: 1px 4px 0px #661355;
+        font-size: 15px;
+        text-shadow: 5px 6px 0px #2222;
+    }
+    #manu_part .btn_2 {
+        padding: 5px 14px;
+        box-shadow: 0px 4px 0px #3a0090;
+        font-size: 15px;
+        text-shadow: 5px 6px 0px #2222;
+    }
+    #manu_part button span {
+        color: #fff;
+        margin-top: 48px;
+    }
+    .navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+        display: block;
+    }
+    /* ==========banner part start========= */
+    #banner_part {
+        padding-top: 160px;
+        padding-bottom: 180px;
+        
+    }
+    #banner_part .item_part {
+        width: 300px;
+        height: 115px;
+    }
+    #banner_part .item_part .item .txt_1 {
+        font-size: 26px;
+    }
+    #banner_part .item_part .item .txt_2 {
+        font-size: 18px;
+    }
+    #banner_part .item_part .item .pera {
+        font-size: 10px;
+    }
+    #banner_part .item_part {
+        bottom: -57px;
+    }
+    /* ==========banner part end========= */
+    /* ==========game part start========= */
+    #game_details {
+        padding-top: 151px;
+    }
+    /* ==========game part end========= */
+    /* ==========sub payment part start========= */
+    #sub_payment_part .item input {
+        width: 253px;
+    }
+    #sub_payment_part .item .title {
+        margin-top: 70px;
+    }
+    #sub_payment_part .item .img {
+        width: 40px;
+        height: 30px;
+        box-shadow: 5px 9px 2px rgba(11, 0, 29, 0.651);
+        margin-right: 13px;
+    }
+    #sub_payment_part .item .img img{
+        width: 100%;
+    }
+    /* ==========sub payment part end========= */
+    /* ==========footer  part start========= */
+    #footer_part .item .title {
+        margin-top: 30px;
+    }
+    #footer_part .copy_right {
+        font-size: 13px;
+    }
+    /* ==========footer part end========= */
+        
+}

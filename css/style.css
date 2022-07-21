@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6, p, a{
+    padding: 0;
+    margin: 0;
+}
+ul, li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+.title{
+    font-family: 'Anton', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #fff;
+}
+.pera{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+/* =========comon css end============ */
+/* =========menu part start============ */
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right: 0;
+	padding-left: 0;
+}
+#manu_part{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: #150035;
+    z-index: 99;
+}
+#manu_part .top_manu{
+    margin-top: 70px;
+}
+#manu_part ul li a{
+    padding-right: 44px;
+}
+#manu_part button{
+    margin-right: 10px;
+}
+#manu_part .btn_1 {
+	padding: 10px 20px;
+	border-radius: 5px;
+	background-color: #f935d6;
+	box-shadow: 1px 8px 0px #661355;
+	font-size: 20px;
+	color: #fff; 
+	margin-right: 10px;
+	text-shadow: 5px 6px 0px #2222;
+}
+#manu_part .btn_2 {
+	padding: 10px 24px;
+	border-radius: 5px;
+	background-color: #6217d0;
+	box-shadow: 1px 8px 0px #3a0090;
+	font-size: 20px;
+	color: #fff;
+    text-shadow: 5px 6px 0px #2222;
+}
+#manu_part ul li a{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #944bff;
+    transition: .4s;
+    
+}
+#manu_part ul li a:hover{
+    color: #ff39dc;
+    transition: .4s;
+}
+
+/* =========menu part end============ */
+/* =========banner part start============ */
+#banner_part{
+    padding-top: 227px;
+    padding-bottom: 210px;
+    background: #150035; 
+    text-align: center;
+    position: relative;
+}
+#banner_part h1 {
+	font-family: 'Anton', sans-serif;
+	font-size: 48px;
+	font-weight: 400;
+	background: linear-gradient(#fdbe09, #d68e09, #fdbe09);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	text-shadow: 4px 10px 4px rgba(244, 164, 16, 0.1);
+}
+
+#banner_part .txt_style {
+	font-family: 'Anton', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	color: #fff;
+	text-shadow: 4px 5px 2px rgba(255, 255, 255, 0.6);
+}
+#banner_part .item_part {
+	width: 1120px;
+	height: 225px;
+	background-color: #6c20d7;
+	position: absolute;
+	left: 50%;
+	bottom: -115px;
+	transform: translateX(-50%);
+	clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 96%);
+    display: flex;
+}
+#banner_part .item_part .item {
+	width: 373px;
+	height: 100%;
+	background-image: linear-gradient( to left, #6e22d9 88%, #581ab2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner_part .item_part .item_3 {
+    width: 374px;
+    height: 100%;
+    background-color: red;
+}
+#banner_part .item_part .item .txt_1{
+    font-size: 50px;
+    color: #a60084;
+}
+
+/* =========banner part end============ */
+/* ==========game_details part start============= */
+#game_details {
+    padding-top: 200px;
+    padding-bottom: 100px;
+    background: #0b001b;
+}
+#game_details .item img{
+    width: 100%;
+}
+#game_details .item {
+    position: relative;
+    margin-bottom: 30px;
+}
+#game_details .item .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(21, 0, 53, 0.7);
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: .4s;
+}
+#game_details .item .overlay .title {
+    font-size: 24px;
+}
+#game_details .item .overlay .mar_btn {
+    margin-bottom: 30px;
+}
+#game_details .item .overlay .log_btn {
+	padding: 10px 20px;
+	background-color: #6217d0;
+	border-radius: 10px;
+	color: #fff;
+	box-shadow: 0px 8px 0px #4708a5;
+}
+#game_details .item:hover .overlay {
+    opacity: 1;
+    transition: .4s;
+}
+/* ==========game_details part end============= */
+/* ==========subcription part start============ */
+#sub_payment_part {
+    padding: 60px 0;
+    background-image: linear-gradient(#9b4af9, #5a10c9);
+    
+}
+#sub_payment_part .item .title{
+    margin-bottom: 15px;
+}
+#sub_payment_part .item input {
+	height: 40px;
+	width: 502px;
+	border: 2px solid #3a0090;
+	border-radius: 5px;
+	background: transparent;
+	position: relative;
+}
+#sub_payment_part .item {
+    position: relative;
+}
+#sub_payment_part .item .lft_box {
+	height: 40px;
+	width: 46px;
+	border: 2px solid #3a0090;
+    border-radius: 5px;
+	position: absolute;
+	right: 0;
+	top: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+#sub_payment_part .item .company_logo {
+    display: flex;
+}
+#sub_payment_part .item .img {
+	width: 60px;
+	height: 40px;
+	box-shadow: 5px 5px 3px rgba(11, 0, 29, 0.651);
+    margin-right: 20px;
+}
+/* ==========subcription part end============ */
+/* ==========footer part start=========== */
+#footer_part {
+    padding-top: 60px;
+    background: #0b001b;
+}
+#footer_part .item .title{
+    margin-bottom: 15px;
+}
+#footer_part .item .icon_part{
+    display: flex;
+}
+#footer_part .item .icon {
+	width: 50px;
+	height: 50px;
+	background-image: linear-gradient(#9b4af9, #5a10c9);
+	box-shadow: 5px 5px 3px #3a0090;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 15px;
+	margin-right: 15px;
+    transition: .4s;
+}
+#footer_part .item .icon:hover {
+    background-image: linear-gradient(#fa36d8, #aa0388);
+    box-shadow: 5px 5px 3px #661355;
+    transition: .4s;
+}
+#footer_part .item .icon span{ 
+    color: #fff;
+    font-size: 24px;
+}
+#footer_part .item .item_text{
+    display: flex;
+}
+#footer_part .item .item_text .text_1{
+    margin-right: 15px;
+}
+#footer_part .item .lin_heit {
+	line-height: 22px;
+	margin-left: 54px;
+}
+#footer_part .item .mar_top {
+	margin-top: 58px;
+}
+#footer_part .item_ption {
+    position: relative;
+} 
+#footer_part .item_ption .s_icon_1 {
+	position: absolute;
+	top: 44px;
+	left: -31px;
+   
+}
+#footer_part .item_ption .s_icon_2 {
+	position: absolute;
+	bottom: -22px;
+	left: -31px;
+}
+#footer_part .border {
+    border: 1px solid #150035 !important;
+    margin-top: 60px;
+}
+#footer_part .copy_right {
+    padding: 15px 0;
+    background: #0b001b;
+    text-align: center;
+}
+#footer_part .copy_right span{
+    color: #cc18a9; 
+}
+
+/* ==========footer part end=========== */
+
+
+
+
+
+
+
